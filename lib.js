@@ -1,11 +1,3 @@
-function isLoggedIn() {
-	$.get('reference.php', {
-		func: 'isloggedin',
-	}, function(response) {
-		return response;
-	});
-}
-
 function oddOrEven(someNumber) {
 	return (someNumber % 2 == 0) ? true : false;
 }
